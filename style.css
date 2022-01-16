@@ -1,10 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
-.logo {
-	position:absolute;
-	top: 37px;
-	left: 600px;
+.title {
+	border-spacing: 20px 0px;
 }
 
 body {
@@ -25,6 +23,40 @@ h1 {
 	font-weight: 700px;
 	text-decoration: underline;
 }
+
+a:link {
+	color: blue;
+	background-color: transparent;
+  }
+  a:visited {
+	color: blue;
+	background-color: transparent;
+  }
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+.navigate {
+	font-size: 20px;
+}
+
+.navigate span {
+	background-color: #686464;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+
+a.nav:link {color:#ffffff;text-decoration:none;}
+a.nav:visited {color:#ffffff;text-decoration:none;}
+a.nav:hover {text-decoration:underline;}
 
 img {
     align-content: center;
@@ -47,6 +79,9 @@ img {
 	color: black;
 }
 
+.nudge {
+	left: 1500x;
+}
 footer {
 	text-align: center;
 	padding: 3px;
@@ -54,3 +89,47 @@ footer {
 	color: white;
   font-size: 15px;
   }
+
+.navbar ul {
+	list-style: none;
+	background: #686464;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.navbar li {
+	display: inline-block;
+}
+
+.navbar a {
+	text-decoration: none;
+	color:#ffffff;
+	width: 100px;
+	display: block;
+	padding: 25px 20px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.navbar a:hover {
+	background: #545454;
+}
+
+.space {
+	border-collapse: separate;
+    border-spacing: 45px 5px;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+.text {
+	width: 750px;
+	position:relative; 
+	text-align: left;
+}
+
+.team {
+	width: 500px;
+}
