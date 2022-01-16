@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title {
+	border-spacing: 20px 0px;
+}
+
+body {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	background-color: #f5f5f5;
+}
+
+.a {
+    width:100; height:100;
+    display: block;
+    margin-left: auto; margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+	font-size: 60px;
+	font-family:monospace;
+	font-weight: 700px;
+	text-decoration: underline;
+}
+
+a:link {
+	color: blue;
+	background-color: transparent;
+  }
+  a:visited {
+	color: blue;
+	background-color: transparent;
+  }
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+.navigate {
+	font-size: 20px;
+}
+
+.navigate span {
+	background-color: #686464;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+
+a.nav:link {color:#ffffff;text-decoration:none;}
+a.nav:visited {color:#ffffff;text-decoration:none;}
+a.nav:hover {text-decoration:underline;}
+
+img {
+    align-content: center;
+}
+
+.indexbg {
+	background-image: url(puzzle.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.quote {
+	color: black;
+}
+
+.quote2 {
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 35px;
+	color: black;
+}
+
+.nudge {
+	left: 1500x;
+}
+footer {
+	text-align: center;
+	padding: 3px;
+	background-color: #656565;
+	color: white;
+  font-size: 15px;
+  }
+
+.navbar ul {
+	list-style: none;
+	background: #686464;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.navbar li {
+	display: inline-block;
+}
+
+.navbar a {
+	text-decoration: none;
+	color:#ffffff;
+	width: 100px;
+	display: block;
+	padding: 25px 20px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.navbar a:hover {
+	background: #545454;
+}
+
+.space {
+	border-collapse: separate;
+    border-spacing: 45px 5px;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+.text {
+	width: 750px;
+	position:relative; 
+	text-align: left;
+}
+
+.team {
+	width: 500px;
+}
